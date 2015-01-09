@@ -1,0 +1,7 @@
+.DS_Store
+.htaccess
+*.log
+wp-content/uploads
+wp-content/themes/*.log
+wp-content/themes/winefest/.sass-cache
+wp-content/themes/winefest/node_modules

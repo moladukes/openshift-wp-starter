@@ -1,0 +1,48 @@
+// Grid settings
+// -------------------------
+
+$grid-columns:          12;
+$main-sm-columns:       $grid-columns;
+$sidebar-sm-columns:    4;
+
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         #ec0257;
+
+
+// Glyphicons path
+// -------------------------
+
+$icon-font-path:        "../vendor/bootstrap-sass-official/assets/fonts/";
+
+// Typography
+// -------------------------
+
+$font-family-sans-serif: "Proxima Nova","Open Sans","Gill Sans MT","Gill Sans",Corbel,Arial,sans-serif;
+$font-family-serif: "Times New Roman",Times,serif;
+
+$font-size-base: 17px;
+$font-size-h1:   24px;
+$font-size-h2:   20px;
+$font-size-h3:   18px;
+$font-size-h4:   16px;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+
+// Header
+// -------------------------
+
+$navbar-height: 75px;
+$navbar-default-bg: #fff;
+$navbar-default-border: #ddd;
+$navbar-default-color: #000;
+$navbar-default-link-color: $navbar-default-color;
+$navbar-default-link-hover-color: $brand-primary;
+$navbar-default-link-active-color: $brand-primary;
+$navbar-default-link-active-bg: transparent;
+
+// Page Specific
+// -------------------------
+$page-header-border-color: transparent;

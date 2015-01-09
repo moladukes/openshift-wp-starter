@@ -1,0 +1,104 @@
+// Sticky Footer
+
+// * {
+//   margin: 0;
+// }
+// html, body {
+//   height: 100%;
+// }
+// .page-wrap {
+//   min-height: 100%;
+//   margin-bottom: -367px;
+// }
+// .page-wrap:after {
+//   content: "";
+//   display: block;
+// }
+// .footer, .page-wrap:after {
+//   height: 367px;
+// }
+
+// Global Styles
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+.hero-title {
+  text-transform: none;
+  font-size: 2.5em;
+}
+
+.btn {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 6px 15px;
+  font-size: 14px;
+  &.btn-sm {
+    padding: 5px 13px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+}
+
+.header-icons {
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  right: 20px;
+  .icon-divider {
+    position: relative;
+    top: 5px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+  }
+}
+.icon {
+  position: relative;
+  top: 5px;
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  text-indent: -999px;
+  overflow: hidden;
+  &.facebook {
+    background: url(../img/icons/icon-facebook.png) 0 0 no-repeat;
+  }
+  &.twitter {
+    background: url(../img/icons/icon-twitter.png) 0 0 no-repeat;
+  }
+  &.instagram {
+    background: url(../img/icons/icon-instagram.png) 0 0 no-repeat;
+  }
+  &.ticket {
+    background: url(../img/icons/icon-ticket.png) 0 0 no-repeat;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .icon {
+    &.facebook {
+      background: url(../img/icons/icon-facebook@2x.png) 0 0 no-repeat;
+      background-size: 20px;
+    }
+    &.twitter {
+      background: url(../img/icons/icon-twitter@2x.png) 0 0 no-repeat;
+      background-size: 20px;
+    }
+    &.instagram {
+      background: url(../img/icons/icon-instagram@2x.png) 0 0 no-repeat;
+      background-size: 20px;
+    }
+    &.ticket {
+      background: url(../img/icons/icon-ticket@2x.png) 0 0 no-repeat;
+      background-size: 20px;
+    }
+  }
+}

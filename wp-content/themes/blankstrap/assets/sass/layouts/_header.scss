@@ -1,0 +1,23 @@
+.navbar {
+  margin-bottom: 0;
+}
+.nav {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.navbar-brand {
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .navbar-brand {
+
+  }
+}
+.navbar-nav > li > .dropdown-menu {
+  border: 0;
+  padding: 0;
+  font-size: 14px;
+}

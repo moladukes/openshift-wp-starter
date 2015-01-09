@@ -1,0 +1,18 @@
+
+/* Metabox */
+
+.tf-meta {  }
+.tf-meta ul li { display: block; position: relative; height: 25px; clear:both; margin: 0 0 15px 0;}
+.tf-meta ul li label { width: 100px; display:block; float:left; padding-top:4px; }
+.tf-meta ul li input { width:400px; display:block; float:left; }
+.tf-meta ul li em { width: 200px; display:block; float:left; color:gray; margin-left:10px; padding-top: 4px}
+
+.ui-datepicker-trigger {
+  display: block;
+  background: url('../../images/icon-events-admin-black.png') 0 0 no-repeat;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 7px;
+  left: 478px;
+}
