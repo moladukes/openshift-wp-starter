@@ -3,5 +3,5 @@
 *.log
 wp-content/uploads
 wp-content/themes/*.log
-wp-content/themes/winefest/.sass-cache
-wp-content/themes/winefest/node_modules
+wp-content/themes/*/.sass-cache
+wp-content/themes/*/node_modules

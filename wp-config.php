@@ -37,7 +37,7 @@ if (getenv('OPENSHIFT_APP_NAME') != "") {
 	/** Roots env define **/
 	define('WP_ENV', 'development');
 
-	define('DB_NAME', 'DB-NAME-HERE');
+	define('DB_NAME', 'samantha');
 
 	/** MySQL database username */
 	define('DB_USER', 'root');
