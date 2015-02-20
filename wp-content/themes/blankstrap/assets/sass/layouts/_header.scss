@@ -16,8 +16,26 @@
 
   }
 }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
 .navbar-nav > li > .dropdown-menu {
   border: 0;
   padding: 0;
   font-size: 14px;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+header.navbar-default,
+footer.navbar-default {
+  background: #222e2e;
+  color: #fff;
+  border: 0;
 }

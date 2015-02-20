@@ -22,15 +22,13 @@ var Roots = {
   // All pages
   common: {
     init: function() {
-        // Instafeed
-        var feed = new Instafeed({
-          get: 'tagged',
-          tagName: 'californiawinefestival',
-          clientId: '618103109112408eacc32758a0d01abc',
-          limit: 6,
-          template: '<a href="{{link}}" class="instafeed-img"><img src="{{image}}" /></a>'
+        // Hero Slider
+        $(".hero-slider").owlCarousel({
+          navigation : true, // Show next and prev buttons
+          slideSpeed : 300,
+          paginationSpeed : 300,
+          singleItem: true
         });
-        feed.run();
 
         // Magnific Popup
         if ($.fn.magnificPopup) {

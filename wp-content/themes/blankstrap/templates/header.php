@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
+<header class="banner navbar navbar-default navbar-static-top header" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -17,13 +17,5 @@
         endif;
       ?>
     </nav>
-  </div>
-  <div class="header-icons">
-    <a href="#" class="icon facebook">facebook</a>
-    <a href="#" class="icon twitter">twitter</a>
-    <a href="#" class="icon instagram">instagram</a>
-    <span class="icon-divider">&#124;</span>
-    <a href="#" class="icon ticket">ticket</a>
-    <a href="/tickets" class="btn btn-primary"> Buy Tickets</a>
   </div>
 </header>
