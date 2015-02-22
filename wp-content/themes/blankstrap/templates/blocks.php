@@ -57,9 +57,6 @@
               ?>
 
               <div class="col col-md-6">
-                <?php if (get_sub_field('item_title')) : ?>
-                  <h2 class="col-title"><?php the_sub_field('item_title') ?></h2>
-                <?php endif; ?>
                 <?php if (get_sub_field('item_image')) : ?>
 
                   <?php $image = get_sub_field('item_image'); ?>
@@ -71,6 +68,9 @@
                     <?php endif ?>
                   </div>
 
+                <?php endif; ?>
+                <?php if (get_sub_field('item_title')) : ?>
+                  <h2 class="col-title"><?php the_sub_field('item_title') ?></h2>
                 <?php endif; ?>
                 <?php if (get_sub_field('item_teaser')) : ?>
                   <p><?php the_sub_field('item_teaser') ?></p>
@@ -113,7 +113,7 @@
                     <?php if (isset($three_link_url)) : ?>
                       <a href="<?php echo $three_link_url ?>" class="thumb" style="background-image: url('<?php echo $image['sizes'][ 'thumbnail' ]; ?>');"></a>
                     <?php else : ?>
-                      <div class="thumb" style="background-image: url('<?php echo $image['sizes'][ 'thumbnail' ]; ?>');"></div>
+                      <div class="thumb thumb-medium" style="background-image: url('<?php echo $image['sizes'][ 'medium' ]; ?>');"></div>
                     <?php endif ?>
                   </div>
 
@@ -135,7 +135,7 @@
 
     <?php if (have_rows('four_columns')): ?>
       <!-- Four Columns -->
-      <div class="wrap fluid-container content-block" role="document">
+      <div class="wrap fluid-container content-block content-block-four" role="document">
         <div class="container">
           <div class="content row">
             <?php while (have_rows('four_columns')) : the_row(); ?>
@@ -149,9 +149,7 @@
               ?>
 
               <div class="col col-md-3">
-                <?php if (get_sub_field('item_title')) : ?>
-                  <h2 class="col-title"><?php the_sub_field('item_title') ?></h2>
-                <?php endif; ?>
+
 
                 <?php if (get_sub_field('item_image')) : ?>
 
@@ -160,10 +158,14 @@
                     <?php if (isset($four_link_url)) : ?>
                       <a href="<?php echo $four_link_url ?>" class="thumb" style="background-image: url('<?php echo $image['sizes'][ 'thumbnail' ]; ?>');"></a>
                     <?php else : ?>
-                      <div class="thumb" style="background-image: url('<?php echo $image['sizes'][ 'thumbnail' ]; ?>');"></div>
+                      <div class="thumb thumb-medium" style="background-image: url('<?php echo $image['sizes'][ 'medium' ]; ?>');"></div>
                     <?php endif ?>
                   </div>
 
+                <?php endif; ?>
+
+                <?php if (get_sub_field('item_title')) : ?>
+                  <h2 class="col-title"><?php the_sub_field('item_title') ?></h2>
                 <?php endif; ?>
                 <?php if (get_sub_field('item_teaser')) : ?>
                   <p><?php the_sub_field('item_teaser') ?></p>

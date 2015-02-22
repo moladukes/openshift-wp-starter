@@ -21,10 +21,6 @@
         echo '</div>';
       endwhile;
     echo '</div>';
-  } elseif( has_post_thumbnail() ) {
-      echo '<div class="hero-slider home-slider">';
-      the_post_thumbnail();
-      echo '</div>';
   } else {
     echo '<div class="wrap fluid-container content-block" role="document"><div class="container">';
     echo '<h1 class="page-title">' . get_the_title() . '</h1>';

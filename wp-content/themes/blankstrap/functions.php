@@ -20,7 +20,7 @@ $roots_includes = array(
   'lib/nav.php',             // Custom nav modifications
   'lib/gallery.php',         // Custom [gallery] modifications
   'lib/photo_gallery.php',   // Photo Gallery Lightbox
-  'lib/sponsors.php',        // Sponsors post type
+  'lib/property.php',        // Sponsors post type
   'lib/comments.php',        // Custom comments modifications
   'lib/scripts.php',         // Scripts and stylesheets
   'lib/extras.php',          // Custom functions
